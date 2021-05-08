@@ -49,7 +49,7 @@ class Form{
             this.reset.position(displayWidth-100,20);
             this.reset.mousePressed(()=>{
                 game.update(0);
-                player.updatecount(0);
+                player.updateCount(0);
             
         });
 
