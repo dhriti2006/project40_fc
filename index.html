@@ -12,28 +12,30 @@
 
   
 
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-database.js"></script>
+
+
 <!-- TODO: Add SDKs for Firebase products that you want to use
-   https://firebase.google.com/docs/web/setup#available-libraries -->
-
-
+     https://firebase.google.com/docs/web/setup#available-libraries -->
 
 <script>
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyAy3jTK3JNUBeU5qWNxjPVtTOZ5U6wgBhE",
-  authDomain: "fruitcatcher-b2299.firebaseapp.com",
-  databaseURL: "https://fruitcatcher-b2299-default-rtdb.firebaseio.com",
-  projectId: "fruitcatcher-b2299",
-  storageBucket: "fruitcatcher-b2299.appspot.com",
-  messagingSenderId: "20264086177",
-  appId: "1:20264086177:web:633e172f3602840e109ee0"
-};
-// Initialize Firebase
-
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAy3jTK3JNUBeU5qWNxjPVtTOZ5U6wgBhE",
+    authDomain: "fruitcatcher-b2299.firebaseapp.com",
+    databaseURL: "https://fruitcatcher-b2299-default-rtdb.firebaseio.com",
+    projectId: "fruitcatcher-b2299",
+    storageBucket: "fruitcatcher-b2299.appspot.com",
+    messagingSenderId: "20264086177",
+    appId: "1:20264086177:web:633e172f3602840e109ee0"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 </script>
+
+
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8">
 
